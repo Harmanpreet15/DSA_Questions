@@ -10,7 +10,7 @@ public class LeetCode1{
             int toFind = target - nums[i];
 
             if(map.containsKey(toFind)){
-                return new int[]{map.get(toFind), i};
+                return new int[] {map.get(toFind), i};
             }
 
             map.put(nums[i], i);
