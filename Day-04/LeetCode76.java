@@ -60,7 +60,7 @@ public class LeetCode76 {
     }
 
     public static void main(String[] args) {
-        String s = "ADOBECODEBANC", t = "ABC";
+        String s = "ADOBBECODEBANC", t = "ABC";
         System.out.println(minWindow(s, t));
     }
 }
