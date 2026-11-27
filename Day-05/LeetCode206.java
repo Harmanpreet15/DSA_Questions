@@ -25,6 +25,7 @@ public class LeetCode206 {
             curr.next = prev;
             prev = curr;
             curr = next;
+            
         }
 
         return prev;
